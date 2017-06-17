@@ -1,5 +1,11 @@
 module.exports = {
-	db: 'localhost',
-	clientSecret: process.env.clientSecret || '57245d3470f9465fa5ea5212191d91ab',
-	tokenSecret: process.env.tokensecret || '5blueberries'
+	db:'localhost',
+	clientSecret: process.env.clientSecret || ' 9642b6417f894666a920d6d19a576344',
+	tokenSecret: process.env.tokenSecret || 'Aloha'
 }
+
+module.exports = {
+  db: process.env.db || 'localhost',
+  tokenSecret: process.env.tokenSecret || 'pick a hard to guess string'
+
+};
